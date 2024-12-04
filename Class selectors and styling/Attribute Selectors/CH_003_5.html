@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selectors</title>
+
+    <style>
+        a[target="_blank"]{
+            color: red;
+        }
+        a[id="inter"]{
+            color: blue;
+        }
+        /* #inter{
+            color: blue;
+            text-decoration: none;
+        } */
+    </style>
+</head>
+<body>
+    <div>
+        <a href="" target="_blank">External Link1</a><br>
+        <a href="" target="_blank" id="inter">internal Link</a><br>
+        <a href="" target="_blank">External Link2</a>
+    </div>
+</body>
+</html>

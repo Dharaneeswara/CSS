@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flex Box</title>
+    
+    <style>
+        /* header{
+            text-align: center;
+            height: 50px;
+        } */
+        header>h1{
+            font-size: 80px;
+            margin: 0;
+            text-align: center;
+        }
+        header>h4{
+            color: rgb(99, 93, 84);
+            margin: 1rem;
+            text-align: center;
+        }
+        .line{
+            width: 100%;
+            height: 2px;
+            background-color: black;
+        }
+
+        .sub-headings{
+            display: flex;
+            /* display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+            margin: 40px;
+            text-align: center;
+        }
+        .sub-line{
+            background: black;
+            height: 1px;
+            width: 50%;
+            margin-left: 25%;
+        }
+        .sub-line1{
+            background: black;
+            height: 1px;
+            width: 40%;
+            margin-left: 30%;
+        }
+        .sh-5 ,.sh-2, .sh-3, .sh-4{
+            border-left: 1px solid black;
+            padding:0px 20px;
+            height: 100%;
+            
+        }
+        .sh-1{
+            padding: 0px 20px;
+        }
+        .author1,
+        .author2,
+        .author3,
+        .author4,
+        .author5{
+            font-family: 'Playfair Display', serif;
+            font-weight: 400;
+            font-style: italic;
+        }
+        .author2{
+            font-size: 30px;
+        }
+        .author3{
+            font-size: 20px;
+        }
+        .sub-heading1, 
+        .sub-heading2, 
+        .sub-heading3, 
+        .sub-heading4, 
+        .sub-heading5{
+            font-size: 32px;
+            font-family: 'Playfair Display', serif;
+            font-weight: 400;
+            font-style: italic;
+        }
+        .sub-heading2{
+            font-size: 44px;
+        }
+        .para{
+            color: rgb(99, 93, 84);
+            text-align: justify;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NEWSPAPER TITLE</h1>
+        <div class="line"></div>
+        <h4>STATE, COUNTRY - MONDAY 25 SEPTEMBER, 2023 - 10 PAGES</h4>
+        <div class="line"></div>
+    </header>
+
+    <!-- <hr> -->
+
+    <div class="sub-headings">
+        <div class="sh-1">
+            <p class="sub-heading1">First subheading</p>
+            <div class="sub-line"></div>
+            <p class="author1">by Author Name</p>
+            <div class="sub-line"></div>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis numquam totam temporibus culpa molestiae quaerat recusandae porro facere impedit velit, possimus vitae, illo hic! Libero laboriosam dolorum ab minus.</p>
+        </div>
+
+        <div class="sh-2">
+            <p class="sub-heading2">SUB TITLE</p>
+            <p class="author2">Author Name</p>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis numquam totam temporibus culpa molestiae quaerat recusandae porro facere impedit velit, possimus vitae, illo hic! Libero laboriosam dolorum ab minus.</p>
+        </div>
+
+        <div class="sh-3">
+            <p class="sub-heading3">INTERESTING TITLE</p>
+            <div class="sub-line1"></div>
+            <p class="author3">Author Name</p>
+            <div class="sub-line1"></div>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis numquam totam temporibus culpa molestiae quaerat recusandae porro facere impedit velit, possimus vitae, illo hic! Libero laboriosam dolorum ab minus.</p>
+        </div>
+
+        <div class="sh-4">
+            <p class="sub-heading4">Sub Heading</p>
+            <div class="sub-line"></div>
+            <p class="author4">by Author Name</p>
+            <div class="sub-line"></div>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis numquam totam temporibus culpa molestiae quaerat recusandae porro facere impedit velit, possimus vitae, illo hic! Libero laboriosam dolorum ab minus.</p>
+        </div>
+
+        <div class="sh-5">
+            <p class="sub-heading5">SUB HEADING</p>
+            <div class="sub-line1"></div>
+            <p class="author5">by Author Name</p>
+            <div class="sub-line1"></div>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis numquam totam temporibus culpa molestiae quaerat recusandae porro facere impedit velit, possimus vitae, illo hic! Libero laboriosam dolorum ab minus.</p>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css_challeng.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tour Booking Form</h1>
+        <h4>Note: *Mandatory Fields</h4>
+        <div class="line"></div>
+        <form action="">
+            <strong>
+
+                <label for="fname">Full Name<span>*</span>:</label><br>
+                <input type="text" id="fname" class="text-box"><br>
+    
+                <label for="email">Email Address<span>*</span>:</label><br>
+                <input type="email" id="email" class="text-box"><br>
+    
+                <label for="packages">Select Tour Package<span>*</span>:</label><br>
+                <select name=" " id="packages" class="text-box">
+                    <option value="">select package</option>
+                    <option value="Thanjaoor">Thanjaoor</option>
+                    <option value="Kallakurichi">Kallakurichi</option>
+                    <option value="Samayaburam">Samayaburam</option>
+                    <option value="Theni">Theni</option>
+                </select><br>
+            
+    
+                <label for="person">Number of Persons<span>*</span>:</label><br>
+                <input type="number" id="person" class="text-box"><br>
+    
+                <label for="date">Date<span>*</span>:</label><br>
+                <input type="date" id="date" class="text-box"><br>
+    
+                <label for="">What would you want to avail?<span>*</span></label><br>
+            </strong>
+                <div class="avail">
+                    <input type="checkbox" id="boarding" value="Boarding">
+                    <label for="boarding">Boarding</label><br>
+                </div>
+                <div class="avail">
+                    <input type="checkbox" id="food" value="Food">
+                    <label for="food">Food</label><br>
+                </div>
+                <div class="avail">
+                    <input type="checkbox" id="sight" value="Sight Seeing">
+                    <label for="sight">Sight Seeing</label><br>
+                </div>
+            
+            <label for="" style="margin-top: 5px;"><strong>Terms and Conditions</strong><span>*</span></label><br>
+            <input type="radio" name="1" id="agree" value="I agree">
+            <label for="agree">I Agree</label><br>
+            <!-- <input type="radio" name="1" id="disagree" value="I am Not agree">
+            <label for="disagree">I am not agree</label><br><br> -->
+
+            <button class="btn" type="submit">Book Now</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+@media only screen and (max-width:600px){
+    .container{
+        background-color:green;
+        /* font-size: 1rem; */
+    }
+    nav{
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width:600px){
+    .container{
+        background-color: aqua;
+        /* font-size: 1.5rem; */
+    }
+    nav{
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width:767px){
+    .sid-bar{
+        display: block;
+    }
+    ul>li{
+        display: none;
+    }
+}
+@media only screen and (min-width:768px){
+    .container{
+        background-color: pink;
+        /* font-size: 2rem; */
+    }
+    nav{
+        font-size: 2rem;
+    }
+    /* .fa-solid{
+        display: none;
+    } */
+    .fa-bars::before,
+    .fa-bars::after{
+        /* content: 0; */
+        display: none;
+    }
+}
+@media only screen and (min-width:992px){
+    .container{
+        background-color: yellow;
+        /* font-size: 2.5rem; */
+    }
+    nav{
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (min-width:1200px){
+    .container{
+        background-color: rgb(0,255,0,0.5);
+        /* font-size: 3rem; */
+        height: 100vh;
+        width: 100%;
+    }
+    nav{
+        font-size: 3rem;
+    }
+}

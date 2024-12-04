@@ -1,0 +1,26 @@
+Hint:
+
+1. Set Up the Project:
+Create an HTML file and a CSS file.
+Link the CSS file to the HTML file.
+2. Structure the HTML
+Organize the content with containers(div) and labels matching the form fields shown.
+Include a background image inside the form section with given image.
+3. CSS Styling
+Form Section:
+Set the background image using background-image and ensure it's full width.
+Text and Labels:
+Apply specific font styles, sizes, and colors.
+Use red for mandatory field indicators (*).
+Buttons:
+Style the "Book Now" button with exact color (use Colourcode), width and height.
+Inputs and Selects:
+Ensure all input fields have consistent width, padding, and border styles.
+Match the design's color and alignment for dropdowns and checkboxes.
+Use div and Border bottom for styling line(Not to use <hr> tag.
+Checkbox: Use border and appearence properties
+Radio Button: Use border, border-radius and appearence properties 
+
+Note:
+Match the exact design as shown in the given design.
+

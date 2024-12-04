@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowing Social Media</title>
+    <script src="https://kit.fontawesome.com/661a41b184.js" crossorigin="anonymous"></script>
+
+    <style>
+        .container{
+            height: 100vh;
+            width: 100%;
+            background: rgb(49, 46, 46);
+            color: black;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            color: white;
+            padding-top: 100px;
+        }
+        .logoicons{
+            display: flex;
+            justify-content: center;
+            font-size: 60px;
+            padding: 20px;
+            margin-top: 100px;
+        }
+        .logoicons>i{
+            margin: 20px;
+            border-radius: 50%;
+            transition: 1s;
+            animation-iteration-count: infinite;
+            /* animation-timing-function: linear; */
+        }
+        .fa-facebook{
+            animation-name: gif1;
+            animation-duration: 3s;
+            animation-direction:normal;
+            /* animation-iteration-count: infinite; */
+            /* animation-fill-mode: forwards; */
+            /* animation-delay:0s; */
+        }
+        .fa-instagram{
+            animation-name: gif2;
+            animation-duration: 3s;
+            animation-direction:normal;
+            /* animation-iteration-count: infinite; */
+            /* animation-delay:2s; */
+                        /* animation-fill-mode: forwards; */
+        }
+        .fa-youtube{
+            animation-name: gif3;
+            animation-duration: 3s;
+            animation-direction:normal;
+            /* animation-iteration-count: infinite; */
+            /* animation-delay:4s; */
+            /* animation-fill-mode: forwards; */
+        }
+        @keyframes gif1{
+            25%{
+                box-shadow: 0 0 10px 15px #48abe0;
+            }
+        }
+        @keyframes gif2{
+            50%{
+                box-shadow: 0 0 10px 15px purple;
+            }
+        }
+        @keyframes gif3{
+            75%{
+                box-shadow:0 0 10px 15px red ;
+            }
+        }
+        /* i:hover{
+            transform: scale(1.1);
+            transition: 1s;
+            box-shadow: 0 0 50px 15px #48abe0;
+            box-shadow: 0 0 10px 5px #48abe0,
+            0 0 20px 7px #ebecca,
+            0 0 25px 20px #8a2be2,
+            0 0 30px 25px #ff1493;
+            border: 5px solid rgba(255, 0, 0, 0.5);
+        } */
+        /* .fa-facebook:hover{
+            box-shadow: 0 0 10px 15px #48abe0;
+        }
+        .fa-instagram:hover{
+            box-shadow: 0 0 10px 15px purple;
+        }
+        .fa-youtube:hover{
+            box-shadow:0 0 10px 15px red ;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Glowing Social Icon</h1>
+            <div class="logoicons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

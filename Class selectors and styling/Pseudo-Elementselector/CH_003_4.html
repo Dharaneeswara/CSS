@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            color: green;
+            text-align: center;
+        }
+        p{
+            color: rgb(93, 233, 93);
+        }
+        p::before {
+            font-size: 30px;
+            color: red;
+            content: "Content ";
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Psuedo Element Selector</h1>
+        <h2>::before Element</h2>
+        <p>This is a paragraph to which we added content in red color using ::befor element.</p>
+    </div>
+</body>
+</html>

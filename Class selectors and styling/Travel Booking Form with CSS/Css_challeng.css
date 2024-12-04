@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./assets/travelform-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed ;
+    margin: 20px;
+}
+form{
+    height: 100%;
+}
+h1{
+    color: white;
+}
+h4{
+    color: red;
+}
+.line{
+    width: 98%;
+    height: 3px;
+    background-color: white;
+    margin: 2px 0px;
+}
+span{
+    color: red;
+}
+.text-box{
+    width: 400px;
+    height: 30px;
+    margin-top: 7px;
+    margin-bottom: 2px;
+}
+.avail{
+    margin-top: 10px;
+    /* margin: 5px 0px; */
+}
+input[type="checkbox"]{
+    appearance: none;
+    border: 2px solid;
+    border-radius: 2px;
+    height: 15px;
+    width: 15px;
+    
+}
+input[type="radio"]{
+    appearance: none;
+    border: 2px solid;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin-top: 15px;
+}
+input[type="checkbox"]:checked{
+    accent-color: red;
+    width: 15px;
+    height: 15px;
+   
+}
+/* input[type="radio"]{
+    outline: 1px auto black;
+
+} */
+.btn{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    /* background-color: rgb(219, 124, 14); */
+    background-color: orangered;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+select{
+    color:rgb(54, 52, 52, 0.445);
+}
+#date{
+    color: rgb(54, 52, 52, 0.445);
+}

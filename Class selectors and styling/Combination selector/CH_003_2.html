@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        div>p{
+            background-color: yellow;
+        }
+        div~p{
+            color: blue;
+        }
+        .p5{
+            background-color: yellowgreen;
+        }
+    </style>
+  </head>
+  <body>
+      <h1>Child selectors</h1>
+      <p>
+        The child selector (>) select all elements that are the children of a
+        spesified elements
+      </p>
+      <div>
+        <p>Paragraph 1 in the div.</p>
+        <p>Paragraph 2 in the div.</p>
+      </div>
+      <section>
+          <p>Paragraph 3 in the div(Inside a section element).</p>
+      </section>
+      <div>
+        <p>Paragraph 4 in the div.</p>
+      </div>
+        <p class="p5">Paragraph 5 in the div.</p>
+        <p>Paragraph 6 in the div.</p>
+  </body>
+</html>
